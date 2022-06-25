@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-bar ul li a {
+    color: white;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hero {
+    padding: 70px 0;
+}
+
+.feature i {
+    color: #F5593D;
+    margin: 0 20px 0 0;
+    font-size: 3rem;
+}
+
+.description {
+    margin: 0 30px 20px 0;
+}
+
+.awsome {
+    color: black;
+}
+
+.crud img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.crud .col-md-4 div {
+    max-width: 1000px;
+    border-radius: 5%;
+
+
+
+}
+
+
+
+
+
+.apple .col-md-4 div {
+    background-color: white;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.apple i {
+    font-size: 3rem;
+    color: grey;
+    margin-right: 20px;
+}

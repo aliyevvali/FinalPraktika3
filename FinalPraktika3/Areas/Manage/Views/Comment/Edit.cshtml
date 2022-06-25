@@ -1,0 +1,35 @@
+﻿@model Comment
+@{
+    ViewData["Title"] = "Edit";
+}
+<form method="post" asp-action="Create" enctype="multipart/form-data">
+    <div class="form-row">
+        <div class="form-group col-md-12">
+            <label asp-for="FullName">FullName</label>
+            <input asp-for="FullName" class="form-control">
+            <span asp-validation-for="FullName"></span>
+        </div>
+        <div class="form-group col-md-12">
+            <label asp-for="Posission"></label>
+            <input asp-for="Posission" class="form-control">
+            <span asp-validation-for="Posission"></span>
+        </div>
+        <div class="form-group col-md-12">
+            <label asp-for="FeedBack"></label>
+            <textarea asp-for="FeedBack" class="form-control" rows="4"></textarea>
+            <span asp-validation-for="FeedBack"></span>
+        </div>
+        <div class="form-group col-md-12">
+            <label asp-for="Photo"></label>
+            <input asp-for="Photo" class="form-control">
+            <span asp-validation-for="Photo"></span>
+        </div>
+    </div>
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+</form>
+
+
+

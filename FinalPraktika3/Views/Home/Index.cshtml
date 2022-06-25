@@ -1,0 +1,322 @@
+﻿@model List<Comment>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header style="background-image: url(../assets/imgs/home-image.jpg); height: 80vh;">
+        <nav class="container">
+            <div class="logo">
+                <img src="~/assets/imgs/logo.png" alt="">
+                <a href="#">awesome app</a>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">features</a></li>
+                    <li><a href="">pricing</a></li>
+                    <li><a href="" class="btn btn-light text-dark">download now</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h1 class="text-white mb-4">Awesome App <br>App Landing Template</h1>
+                        <p class="text-white">
+                            An awesome landing page template to showcase your app features,
+                            screenshots, pricing, user
+                            testimonials and download links.
+                        </p>
+                        <ul class="py-1 list-unstyled text-white">
+                            <li class="py-2">
+                                Amazing Design
+                                to Present Your App
+                            </li>
+                            <li class="py-2">
+                                Fully Responsive
+                                and Powered by Bootstrap &amp; PaperKit
+                            </li>
+                            <li class="py-2">
+                                Very Easy to
+                                Customize and Setup
+                            </li>
+                        </ul><a class="btn btn-light" href="#features">Start Exploring</a>
+                    </div>
+                    <div class="col-md-6  col-sm-12">
+                        <img class="img-fluid" src="./assets/imgs/1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="feature section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex ">
+                    <i class="bi bi-twitch "></i>
+                    <div class="description">
+                        <div class="h4">Showcase Your App</div>
+                        <p class="text-muted">Showcase your app in style with this professional looking template.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4 ">
+                    <i class="bi bi-twitch "></i>
+                    <div class="description">
+                        <div class="h4">Showcase Your App</div>
+                        <p class="text-muted">Showcase your app in style with this professional looking template.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex ">
+                    <i class="bi bi-twitch "></i>
+                    <div class="description">
+                        <div class="h4">Showcase Your App</div>
+                        <p class="text-muted">Showcase your app in style with this professional looking template.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex ">
+                    <i class="bi bi-twitch "></i>
+                    <div class="description">
+                        <div class="h4">Showcase Your App</div>
+                        <p class="text-muted">Showcase your app in style with this professional looking template.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4 ">
+                    <i class="bi bi-twitch "></i>
+                    <div class="description">
+                        <div class="h4">Showcase Your App</div>
+                        <p class="text-muted">Showcase your app in style with this professional looking template.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex ">
+                    <i class="bi bi-twitch "></i>
+                    <div class="description">
+                        <div class="h4">Showcase Your App</div>
+                        <p class="text-muted">Showcase your app in style with this professional looking template.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="awsome section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  col-sm-12">
+                    <img class="img-fluid" src="~/assets/imgs/1.jpg" alt="">
+                </div>
+                <div class="col-md-6 col-sm-12 ">
+                    <h1 class=" mb-4">Awesome App <br>App Landing Template</h1>
+                    <p class="">
+                        An awesome landing page template to showcase your app features,
+                        screenshots, pricing, user
+                        testimonials and download links.
+                    </p>
+                    <ul class="py-1 list-unstyled ">
+                        <li class="py-2">
+                            Amazing Design
+                            to Present Your App
+                        </li>
+                        <li class="py-2">
+                            Fully Responsive
+                            and Powered by Bootstrap &amp; PaperKit
+                        </li>
+                        <li class="py-2">
+                            Very Easy to
+                            Customize and Setup
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section-padding" style="background-color: #F5FAFD;">
+        <div class="container">
+            <h2 class="text-center">Take a look at our screenshots</h2>
+
+            <p class=" text-center">
+                Add your app screenshots below. Make sure to make them lively by putting
+                them
+                inside
+                real device mockups
+                Replace this text to describe the screenshots of your app.
+            </p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="~/assets/imgs/sldier1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/assets/imgs/slider2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/assets/imgs/slider.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <section class="section-padding crud">
+        <div class="container">
+            <h2 class="text-center">What our customers are saying</h2>
+            <p class="text-center mb-5">
+                Real user testimonials are great way to attract new customers and increase their
+                trust into using your
+                app. <br>
+                Replace the testimonials below with the ones for your own app.
+            </p>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4 ">
+                        <div class="p-5" style=" background-color: #F5FAFD;">
+                            <p class="">
+                                @item.FeedBack
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="~/assets/imgs/user/@item.Image" alt="">
+                                <div class="">
+                                    <p>@item.FullName</p>
+                                    <span>@item.Posission</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                }
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="section-padding apple" style="height: 350px;background-image: url(./assets/imgs/home-image.jpg);">
+        <div class="container">
+            <h2 class="text-center mb-5">Download Awesome App Now</h2>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-apple"></i>
+                        <div>
+                            <h4>Download</h4>
+                            <p>Download from App Store</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-apple"></i>
+                        <div>
+                            <h4>Download</h4>
+                            <p>Download from App Store</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-apple"></i>
+                        <div>
+                            <h4>Download</h4>
+                            <p>Download from App Store</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-center text-white" style="padding-top:50px">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example29" class="form-control" />
+                                <label class="form-label" for="form5Example29">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>
